@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FlashCardsSumas</string>
+    <string name="jugar">Jugar</string>
+    <string name="salir">Salir</string>
+    <string name="aplicacion_de_sumas">Aplicacion de Sumas</string>
+    <string name="title_activity_sumas_tarjetas">SumasTarjetas</string>
+</resources>
