@@ -18,4 +18,12 @@ public class MainActivity extends AppCompatActivity {
         Intent siguiente= new Intent(this,AcercaDe.class);
         startActivity(siguiente);
     }
+    public void Jugar(View view){
+        Intent jugar= new Intent(this,JuegoFlash.class);
+        startActivity(jugar);
+    }
+    public void Salir(View view){
+         System.exit(0);
+
+    }
 }
