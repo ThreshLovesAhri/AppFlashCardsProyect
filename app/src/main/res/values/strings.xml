@@ -7,4 +7,6 @@
     <string name="plus">+</string>
     <string name="siguiente">Siguiente</string>
     <string name="regresar">Regresar</string>
+    <string name="generar">Generar</string>
+    <string name="ver_respuesta_correcta">Ver Respuesta Correcta</string>
 </resources>
