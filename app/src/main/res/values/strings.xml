@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppFlashCards2.0</string>
+    <string name="flash_cards_de_sumas_2_0">Flash Cards de Sumas 2.0</string>
+    <string name="jugar">Jugar</string>
+    <string name="acerca_de">Acerca De</string>
+    <string name="salir">Salir</string>
+    <string name="textview">TextView</string>
+    <string name="imagen_radom_del_creador">Imagen radom del creador</string>
+    <string name="aqui_deberia_de_ir_la_informacion_del_autor_pero_no_soy_yo_relleno">Aqui deberia de ir la informacion del autor, pero no, soy yo, Relleno</string>
+    <string name="regresar">Regresar</string>
+</resources>
