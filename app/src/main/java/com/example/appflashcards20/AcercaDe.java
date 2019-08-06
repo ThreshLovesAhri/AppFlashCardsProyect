@@ -1,10 +1,10 @@
 package com.example.appflashcards20;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class AcercaDe extends AppCompatActivity {
 
@@ -17,5 +17,6 @@ public class AcercaDe extends AppCompatActivity {
     public void AnteriorMenu(View view){
         Intent atras= new Intent(this,MainActivity.class);
         startActivity(atras);
+        System.exit(0);
     }
 }
