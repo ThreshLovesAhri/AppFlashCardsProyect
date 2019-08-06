@@ -10,15 +10,15 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Respuesta extends AppCompatActivity {
 
     TextView ress;
-    String outpot1;
+    int outpot1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_respuesta);
         ress=(TextView)findViewById(R.id.ResNum);
-        Intent into = getIntent();
-        outpot1=into.getStringExtra(JuegoFlash.RespExtra);
-        ress.setText(outpot1);
+        Bundle datos = getIntent().getExtras();
+        outpot1= datos.getInt("RespExtra");
+        ress.setText(""+outpot1);
     }
     public void AnteriorMenu(View view){
         Intent atras= new Intent(this,JuegoFlash.class);

@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Random;
 
 public class JuegoFlash extends AppCompatActivity {
-    public static final String RespExtra="com.example.appflashcards20.JuegoFlash";
 
     TextView num1,num2;
     Random r;
@@ -43,7 +42,7 @@ public class JuegoFlash extends AppCompatActivity {
     }
     public void res(View view){
         Intent intento = new Intent(this,Respuesta.class);
-        intento.putExtra(RespExtra,respuesta);
+        intento.putExtra("RespExtra",respuesta);
         startActivity(intento);
         Intent ress= new Intent(this,Respuesta.class);
         startActivity(ress);
